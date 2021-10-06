@@ -4,7 +4,7 @@
 >Refer to [qa-challenge-exploratory.pdf](https://github.com/rio-space/compono-qa-challenge/blob/main/qa-challenge-exploratory.pdf)
 ### **Part 02. Automation Exercise**
 #### The test framework used is _Selenium with Python_. 
->I do have basic knowledge in Selenium and Python, since I only have hands-on experience with proprietary technology, I have consider what is the easiest to use based on knowledge today, install and configure based on the goal and requirements of the activity.
+>Since I have basic knowledge in both Selenium and Python and I only have hands-on experiences with proprietary technology from my current work, I have chosen the framework that is the easiest to use (based on knowledge today) and to install and configure based on the goal and requirements of this activity.
 #### Prerequisites
 > - [x] Python should be installed
 > - [x] Python IDE should be installed to run the test (recommended and easy to use- PyCharm)
@@ -16,12 +16,12 @@
 >   - TC02_VerifyThatCVIsUploadedInProfilePageWithPrefilledInformationInExperienceAndSkillsSection.py
 >   - TC03_VerifyThatUserIsAbleToUploadAndDeleteCVInProfilePage.py
 
->- Before running, there is a need to update these files:
+>- Before running, it is required to update these files:
 >   - [EnvironmentURLs.py](https://github.com/rio-space/compono-qa-challenge/blob/main/constants/EnvironmentURLs.py) - update LOGIN variable with test environment url
 >   - [UserCredentials.py](https://github.com/rio-space/compono-qa-challenge/blob/main/constants/UserCredentials.py) - update EMAIL and PASSWORD variables with access to Shortlyster
 
 >- Assumptions
->   - For TC01, User should does not have information that "NEEDS REVIEW" under Experiences and Skills section. In short, good scenario for a new users
+>   - For TC01, user used does not have information that "NEEDS REVIEW" under Experiences and Skills section. In short, a good scenario for a new users
 >   - Same data file is used for all the scripts
 
 #### Additional 
